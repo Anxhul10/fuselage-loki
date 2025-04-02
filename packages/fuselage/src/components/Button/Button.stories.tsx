@@ -17,23 +17,23 @@ export default {
 } satisfies Meta<typeof Button>;
 
 export const Default: StoryFn<typeof Button> = () => (
-  <Button onClick={action('click')}>Button</Button>
+  <Button onClick={action('click')}>edited default button</Button>
 );
 
 export const Loading: StoryFn<typeof Button> = () => (
   <Button loading onClick={action('click')}>
-    Button
+    edited loading button
   </Button>
 );
 export const LoadingInteraction: StoryFn<typeof Button> = () => {
   const [isLoading, setIsLoading] = useState(false);
   return (
     <Button
-      icon='add-user'
+      icon='github'
       loading={isLoading}
       onClick={() => setIsLoading(!isLoading)}
     >
-      Button
+      edited loading interaction button
     </Button>
   );
 };
