@@ -110,7 +110,7 @@
     "postcss": "~8.5.3",
     "postcss-custom-properties": "~12.1.11",
     "postcss-dir-pseudo-class": "~6.0.5",
-    "postcss-loader": "~7.2.4",
+    "postcss-loader": "~8.1.1",
     "postcss-logical": "~5.0.4",
     "postcss-scss": "~4.0.9",
     "postcss-svg": "~3.0.0",
