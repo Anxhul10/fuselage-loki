@@ -5031,6 +5031,7 @@ __metadata:
     autoprefixer: "npm:~10.4.21"
     babel-loader: "npm:~10.0.0"
     caniuse-lite: "npm:~1.0.30001723"
+    chromatic: "npm:~13.0.1"
     cross-env: "npm:^7.0.3"
     css-loader: "npm:~7.1.2"
     cssnano: "npm:~7.0.7"
@@ -8366,6 +8367,25 @@ __metadata:
   version: 3.0.0
   resolution: "chownr@npm:3.0.0"
   checksum: 10/b63cb1f73d171d140a2ed8154ee6566c8ab775d3196b0e03a2a94b5f6a0ce7777ee5685ca56849403c8d17bd457a6540672f9a60696a6137c7a409097495b82c
+  languageName: node
+  linkType: hard
+
+"chromatic@npm:~13.0.1":
+  version: 13.0.1
+  resolution: "chromatic@npm:13.0.1"
+  peerDependencies:
+    "@chromatic-com/cypress": ^0.*.* || ^1.0.0
+    "@chromatic-com/playwright": ^0.*.* || ^1.0.0
+  peerDependenciesMeta:
+    "@chromatic-com/cypress":
+      optional: true
+    "@chromatic-com/playwright":
+      optional: true
+  bin:
+    chroma: dist/bin.js
+    chromatic: dist/bin.js
+    chromatic-cli: dist/bin.js
+  checksum: 10/d8690f0f6ea0844142524f858716311c70eaaaa736025e6ed10c62aa0eea998f35349eb76497e39294b27a940ad19de7d768329789da82a1eec9f375b9f7e3d4
   languageName: node
   linkType: hard
 
