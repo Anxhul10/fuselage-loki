@@ -1,0 +1,78 @@
+{
+  "name": "@rocket.chat/fuselage-hooks",
+  "version": "0.36.0",
+  "description": "React hooks for Fuselage, Rocket.Chat's design system and UI toolkit",
+  "keywords": [
+    "react",
+    "hooks",
+    "fuselage",
+    "rocket.chat"
+  ],
+  "homepage": "https://rocketchat.github.io/Rocket.Chat.Fuselage/",
+  "bugs": {
+    "url": "https://github.com/RocketChat/fuselage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "directory": "packages/fuselage-hooks"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rocket.Chat",
+    "url": "https://rocket.chat/"
+  },
+  "main": "dist/index.js",
+  "unpkg": "dist/index.umd.js",
+  "module": "dist/index.module.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "run-s .:build:clean .:build:rollup",
+    ".:build:clean": "rimraf dist",
+    ".:build:rollup": "rollup -c",
+    "lint": "lint",
+    "lint-and-fix": "lint-and-fix",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@rocket.chat/emitter": "workspace:~",
+    "@rocket.chat/fuselage-tokens": "workspace:~",
+    "@rollup/plugin-commonjs": "~28.0.5",
+    "@rollup/plugin-json": "~6.1.0",
+    "@rollup/plugin-node-resolve": "~16.0.1",
+    "@rollup/plugin-terser": "~0.4.4",
+    "@rollup/plugin-typescript": "~12.1.2",
+    "@testing-library/dom": "~10.4.0",
+    "@testing-library/react": "~16.3.0",
+    "@testing-library/user-event": "~14.6.1",
+    "@types/react": "~18.3.23",
+    "@types/react-dom": "~18.3.7",
+    "@types/resize-observer-browser": "~0.1.11",
+    "eslint": "~9.29.0",
+    "jest": "~30.0.0",
+    "jest-environment-jsdom": "~30.0.0",
+    "lint-all": "workspace:~",
+    "npm-run-all": "^4.1.5",
+    "prettier": "~3.5.3",
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1",
+    "rimraf": "~6.0.1",
+    "rollup": "~4.43.0",
+    "testing-utils": "workspace:~",
+    "ts-jest": "~29.4.0",
+    "typedoc": "~0.28.5",
+    "typescript": "~5.8.3"
+  },
+  "peerDependencies": {
+    "@rocket.chat/emitter": "*",
+    "@rocket.chat/fuselage-tokens": "*",
+    "react": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "@rocket.chat/logo",
+  "version": "0.32.1",
+  "description": "Rocket.Chat logo package",
+  "keywords": [
+    "rocketchat",
+    "rocketchat logo"
+  ],
+  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "bugs": {
+    "url": "https://github.com/RocketChat/fuselage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "directory": "packages/logo"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rocket.Chat",
+    "url": "https://rocket.chat/"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "run-s .:build:clean .:build:esm .:build:cjs .:build:logo",
+    ".:build:clean": "rimraf dist",
+    ".:build:esm": "tsc -p tsconfig-esm.json",
+    ".:build:cjs": "tsc -p tsconfig-cjs.json",
+    ".:build:logo": "build-logo",
+    "lint": "lint",
+    "lint-and-fix": "lint-and-fix",
+    "test": "jest --runInBand",
+    "docs": "typedoc"
+  },
+  "dependencies": {
+    "@rocket.chat/fuselage-hooks": "workspace:~",
+    "@rocket.chat/styled": "workspace:~"
+  },
+  "devDependencies": {
+    "@rocket.chat/fuselage-tokens": "workspace:~",
+    "@testing-library/dom": "~10.4.0",
+    "@testing-library/react": "~16.3.0",
+    "@types/react": "~18.3.23",
+    "@types/react-dom": "~18.3.7",
+    "build-logo": "workspace:~",
+    "eslint": "~9.29.0",
+    "jest": "~30.0.0",
+    "jest-environment-jsdom": "~30.0.0",
+    "lint-all": "workspace:~",
+    "npm-run-all": "^4.1.5",
+    "prettier": "~3.5.3",
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1",
+    "rimraf": "~6.0.1",
+    "ts-jest": "~29.4.0",
+    "typedoc": "~0.28.5",
+    "typescript": "~5.8.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

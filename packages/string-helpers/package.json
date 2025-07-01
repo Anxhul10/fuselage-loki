@@ -1,0 +1,60 @@
+{
+  "name": "@rocket.chat/string-helpers",
+  "version": "0.31.25",
+  "description": "Helper functions for string manipulation",
+  "keywords": [
+    "string",
+    "helpers"
+  ],
+  "homepage": "https://github.com/RocketChat/fuselage#readme",
+  "bugs": {
+    "url": "https://github.com/RocketChat/fuselage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketChat/fuselage.git",
+    "directory": "packages/string-helpers"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rocket.Chat",
+    "url": "https://rocket.chat/"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "run-s .:build:clean .:build:esm .:build:cjs",
+    ".:build:clean": "rimraf dist",
+    ".:build:esm": "tsc -p tsconfig.json",
+    ".:build:cjs": "tsc -p tsconfig-cjs.json",
+    "lint": "lint",
+    "lint-and-fix": "lint-and-fix",
+    "test": "jest --runInBand",
+    "docs": "typedoc"
+  },
+  "jest": {
+    "errorOnDeprecated": true,
+    "preset": "ts-jest",
+    "testMatch": [
+      "<rootDir>/src/**/*.spec.[jt]s?(x)"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "~9.29.0",
+    "jest": "~30.0.0",
+    "lint-all": "workspace:~",
+    "npm-run-all": "^4.1.5",
+    "prettier": "~3.5.3",
+    "rimraf": "~6.0.1",
+    "ts-jest": "~29.4.0",
+    "typedoc": "~0.28.5",
+    "typescript": "~5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

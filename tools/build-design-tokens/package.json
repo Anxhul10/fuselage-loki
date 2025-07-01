@@ -1,0 +1,19 @@
+{
+  "name": "build-design-tokens",
+  "version": "0.31.25",
+  "private": true,
+  "bin": "./index.mjs",
+  "dependencies": {
+    "stylelint": "~16.20.0",
+    "tools-utils": "workspace:~"
+  },
+  "devDependencies": {
+    "eslint": "~9.29.0",
+    "lint-all": "workspace:~",
+    "prettier": "~3.5.3"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  }
+}
