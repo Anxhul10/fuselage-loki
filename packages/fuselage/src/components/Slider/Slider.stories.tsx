@@ -22,19 +22,19 @@ const TemplateVertical: StoryFn<typeof Slider> = (args) => (
   </Box>
 );
 
-export const SliderPlayExample: StoryFn<typeof Slider> = Template.bind({});
-SliderPlayExample.args = {
-  'aria-label': 'aria-range-label',
-  'maxValue': 50,
-} as const;
-SliderPlayExample.play = async () => {
-  const slider = screen.getByRole<HTMLFormElement>('slider');
-  userEvent.tab();
-  await userEvent.type(slider, '{arrowright}'.repeat(50), {
-    skipClick: true,
-    delay: 1000,
-  });
-};
+// export const SliderPlayExample: StoryFn<typeof Slider> = Template.bind({});
+// SliderPlayExample.args = {
+//   'aria-label': 'aria-range-label',
+//   'maxValue': 50,
+// } as const;
+// SliderPlayExample.play = async () => {
+//   const slider = screen.getByRole<HTMLFormElement>('slider');
+//   userEvent.tab();
+//   await userEvent.type(slider, '{arrowright}'.repeat(50), {
+//     skipClick: true,
+//     delay: 1000,
+//   });
+// };
 
 export const Disabled = Template.bind({});
 Disabled.args = {
