@@ -1,10 +1,10 @@
 [1mstorybook v9.0.11
 [22m
-info => Cleaning outputDir: [36m../../../../../../../tmp/chromatic--808815-uIqD7eR2Lyo5[39m
+info => Cleaning outputDir: [36m../../../../../../../tmp/chromatic--1020627-7rlpLyvB1AZC[39m
 info => Loading presets
 info => Building manager..
 WARN unable to find package.json for testing-utils
-info => Manager built ([38;2;181;126;229m125 ms[39m)
+info => Manager built ([38;2;181;126;229m129 ms[39m)
 info => Building preview..
 info Addon-docs: using MDX3
 info => Using implicit CSS loaders
@@ -24,7 +24,7 @@ WARN export 'shrink' (imported as 'stories') was not found in './Flex.stories' (
 WARN export 'basis' (imported as 'stories') was not found in './Flex.stories' (possible exports: Align, AlignContent, AlignItems, Basis, Direction, Example, Grow, JustifyContent, Order, Shrink, Wrap, __namedExportsOrder, default)
 WARN export 'align' (imported as 'stories') was not found in './Flex.stories' (possible exports: Align, AlignContent, AlignItems, Basis, Direction, Example, Grow, JustifyContent, Order, Shrink, Wrap, __namedExportsOrder, default)
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 3, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/primitives/traits/rich-text.scss:3:8:
+WARN Deprecation Warning on line 3, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/primitives/traits/rich-text.scss:3:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -36,7 +36,7 @@ WARN src/styles/primitives/traits/rich-text.scss 4:9                            
 WARN src/components/Message/MessageGenericPreview/MessageGenericPreview.styles.scss 6:1  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 4, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/primitives/link.scss:4:8:
+WARN Deprecation Warning on line 4, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/primitives/link.scss:4:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -49,7 +49,7 @@ WARN src/styles/primitives/traits/rich-text.scss 4:9                            
 WARN src/components/Message/MessageGenericPreview/MessageGenericPreview.styles.scss 6:1  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 6, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/components/Message/MessageGenericPreview/MessageGenericPreview.styles.scss:6:8:
+WARN Deprecation Warning on line 6, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/components/Message/MessageGenericPreview/MessageGenericPreview.styles.scss:6:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -60,7 +60,7 @@ WARN
 WARN src/components/Message/MessageGenericPreview/MessageGenericPreview.styles.scss 7:9  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 3, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/templates.scss:3:8:
+WARN Deprecation Warning on line 3, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/templates.scss:3:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -72,7 +72,7 @@ WARN src/styles/mixins/templates.scss 4:9                                @use
 WARN src/components/Message/MessageSystem/MessageSystem.styles.scss 5:1  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 4, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/templates.scss:4:8:
+WARN Deprecation Warning on line 4, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/templates.scss:4:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -84,7 +84,7 @@ WARN src/styles/mixins/templates.scss 5:9                                @use
 WARN src/components/Message/MessageSystem/MessageSystem.styles.scss 5:1  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/templates.scss:7:2:
+WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/templates.scss:7:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -99,7 +99,7 @@ WARN src/styles/mixins/templates.scss 8:3                                 focus-
 WARN src/components/Message/MessageSystem/MessageSystem.styles.scss 68:3  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/templates.scss:7:2:
+WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/templates.scss:7:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -114,7 +114,7 @@ WARN src/styles/mixins/templates.scss 8:3                                 focus-
 WARN src/components/Message/MessageSystem/MessageSystem.styles.scss 68:3  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/templates.scss:7:2:
+WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/templates.scss:7:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -129,7 +129,7 @@ WARN src/styles/mixins/templates.scss 8:3                                 focus-
 WARN src/components/Message/MessageSystem/MessageSystem.styles.scss 68:3  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/templates.scss:7:2:
+WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/templates.scss:7:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -144,7 +144,7 @@ WARN src/styles/mixins/templates.scss 8:3                                 focus-
 WARN src/components/Message/MessageSystem/MessageSystem.styles.scss 68:3  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/templates.scss:7:2:
+WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/templates.scss:7:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -162,7 +162,7 @@ WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
 WARN 13 repetitive deprecation warnings omitted.
 WARN Run in verbose mode to see all warnings.
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 0, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/index.scss:0:8:
+WARN Deprecation Warning on line 0, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/index.scss:0:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -173,7 +173,7 @@ WARN
 WARN src/index.scss 1:9  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 1, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/interactivity.scss:1:2:
+WARN Deprecation Warning on line 1, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/interactivity.scss:1:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -190,7 +190,7 @@ WARN src/components/index.scss 8:9                  @import
 WARN src/index.scss 5:9                             root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 1, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/interactivity.scss:1:2:
+WARN Deprecation Warning on line 1, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/interactivity.scss:1:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -207,7 +207,7 @@ WARN src/components/index.scss 8:9                  @import
 WARN src/index.scss 5:9                             root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 1, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/mixins/interactivity.scss:1:2:
+WARN Deprecation Warning on line 1, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/mixins/interactivity.scss:1:2:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -224,7 +224,7 @@ WARN src/components/index.scss 8:9                  @import
 WARN src/index.scss 5:9                             root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 1, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/index.scss:1:8:
+WARN Deprecation Warning on line 1, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/index.scss:1:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -235,7 +235,7 @@ WARN
 WARN src/index.scss 2:9  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 2, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/index.scss:2:8:
+WARN Deprecation Warning on line 2, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/index.scss:2:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -246,7 +246,7 @@ WARN
 WARN src/index.scss 3:9  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 2, column 36 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/variables/breakpoints.scss:2:36:
+WARN Deprecation Warning on line 2, column 36 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/variables/breakpoints.scss:2:36:
 WARN Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 WARN Use map.get instead.
 WARN 
@@ -263,7 +263,7 @@ WARN src/styles/variables/all.scss 1:9           @import
 WARN src/index.scss 2:9                          root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 3, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/variables/breakpoints.scss:3:2:
+WARN Deprecation Warning on line 3, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/variables/breakpoints.scss:3:2:
 WARN Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 WARN Use map.get instead.
 WARN 
@@ -277,7 +277,7 @@ WARN src/styles/variables/all.scss 1:9          @import
 WARN src/index.scss 2:9                         root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 3, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/index.scss:3:8:
+WARN Deprecation Warning on line 3, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/index.scss:3:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -288,7 +288,7 @@ WARN
 WARN src/index.scss 4:9  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 4, column 8 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/index.scss:4:8:
+WARN Deprecation Warning on line 4, column 8 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/index.scss:4:8:
 WARN Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
 WARN 
 WARN More info and automated migrator: https://sass-lang.com/d/import
@@ -299,7 +299,7 @@ WARN
 WARN src/index.scss 5:9  root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 6, column 25 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/variables/breakpoints.scss:6:25:
+WARN Deprecation Warning on line 6, column 25 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/variables/breakpoints.scss:6:25:
 WARN Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 WARN Use map.get instead.
 WARN 
@@ -316,7 +316,7 @@ WARN src/styles/variables/all.scss 1:9           @import
 WARN src/index.scss 2:9                          root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/variables/breakpoints.scss:7:2:
+WARN Deprecation Warning on line 7, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/variables/breakpoints.scss:7:2:
 WARN Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 WARN Use map.get instead.
 WARN 
@@ -330,7 +330,7 @@ WARN src/styles/variables/all.scss 1:9          @import
 WARN src/index.scss 2:9                         root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 11, column 2 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/styles/variables/breakpoints.scss:11:2:
+WARN Deprecation Warning on line 11, column 2 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/styles/variables/breakpoints.scss:11:2:
 WARN Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 WARN Use map.get instead.
 WARN 
@@ -344,7 +344,7 @@ WARN src/styles/variables/all.scss 1:9           @import
 WARN src/index.scss 2:9                          root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 114, column 4 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/components/Button/Button.styles.scss:114:4:
+WARN Deprecation Warning on line 114, column 4 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/components/Button/Button.styles.scss:114:4:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -360,7 +360,7 @@ WARN src/components/index.scss 7:9                   @import
 WARN src/index.scss 5:9                              root stylesheet
 WARN 
 WARN Module Warning (from ../../node_modules/sass-loader/dist/cjs.js):
-WARN Deprecation Warning on line 116, column 4 of file:///home/anxhul/CodeVault/g-project/fuselage-chromatic/packages/fuselage/src/components/Button/Button.styles.scss:116:4:
+WARN Deprecation Warning on line 116, column 4 of file:///home/anxhul/CodeVault/g-project/cutom-fuselage-project/packages/fuselage/src/components/Button/Button.styles.scss:116:4:
 WARN Sass's behavior for declarations that appear after nested
 WARN rules will be changing to match the behavior specified by CSS in an upcoming
 WARN version. To keep the existing behavior, move the declaration above the nested
@@ -382,16 +382,16 @@ WARN export 'BoxProps' (reexported as 'BoxProps') was not found in './Box' (poss
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
 WARN Assets: 
-WARN   static/media/rocketchat.3744e81c.svg (502 KiB)
-WARN   main.ca442f1b.iframe.bundle.js (5.09 MiB)
+WARN   static/media/rocketchat.77656360.svg (502 KiB)
+WARN   main.05b3cce0.iframe.bundle.js (5.09 MiB)
 WARN   5458.52ad27dd.iframe.bundle.js (827 KiB)
 WARN   6179.799a7561.iframe.bundle.js (1.55 MiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
 WARN   main (6.65 MiB)
-WARN       runtime~main.703f678b.iframe.bundle.js
+WARN       runtime~main.7a020bdd.iframe.bundle.js
 WARN       6179.799a7561.iframe.bundle.js
-WARN       main.ca442f1b.iframe.bundle.js
+WARN       main.05b3cce0.iframe.bundle.js
 WARN 
 info => Preview built ([38;2;181;126;229m30 s[39m)
-info => Output directory: /tmp/chromatic--808815-uIqD7eR2Lyo5
+info => Output directory: /tmp/chromatic--1020627-7rlpLyvB1AZC

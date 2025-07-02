@@ -57,5 +57,8 @@
   "volta": {
     "node": "22.16.0",
     "yarn": "4.9.2"
+  },
+  "resolutions": {
+    "chromatic": "portal:/home/anxhul/CodeVault/chromatic-cli"
   }
 }
